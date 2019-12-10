@@ -42,5 +42,3 @@ export const reducer = (state, action) => {
         return state;
   }
 };
-
-console.log(initialState)
