@@ -6,7 +6,9 @@ const Todo = (props) => {
   return (
     <div className="todo">
       <ul>
-        <li>{props.item}</li>
+        <li style={props.item.completed ? { textDecoration: 'line-through'} : null} onClick={() => props.toggleComplete(props.item.id)}>
+          {props.item.item}
+        </li>
       </ul>
     </div>
   )
