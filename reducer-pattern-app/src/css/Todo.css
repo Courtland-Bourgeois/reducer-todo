@@ -1,0 +1,13 @@
+.todo {
+  display: flex;
+  justify-content: center;
+}
+
+.todo, ul {
+  padding: 0;
+}
+
+.item.completed {
+  background-color: #390cdd;
+  text-decoration: line-through;
+}
